@@ -1,0 +1,168 @@
+<!-- NAME: Kevin Merchancano
+PROG PURPOSE: This webpage is about Chapter 5 Algorithms & Software Testing.
+-->
+<html lang="en">
+    <head>
+        <title>Chapter 5</title>
+    </head>
+    <body style="color: rgb(255, 255, 255); background-color: rgb(41, 41, 41); font-family: 'Times New Roman', Times, serif;">
+    <h1>Algorithms & Software Testing</h1>
+
+    <table border = "1" style ="width: 80%; color: #ffffff; background-color: rgb(3, 53, 15); margin: auto;">
+		<tr style="font-size: 120%; background-color: #685203;">
+			<th colspan="2">Phases of Computer Programming</th>
+        </tr>
+        <tr>
+            <td>PHASES</td>
+            <td>DEFINITIONS</td>
+        </tr>
+        <tr>
+            <td>Phase 1</td>
+            <td>Understanding the problem</td>
+        </tr>
+        <tr>
+            <td>Phase 2</td>
+            <td>Design an algorithm to solve the problem</td>
+        </tr>
+        <tr>
+            <td>Phase 3</td>
+            <td>Write the program code in appropriate language based on algorithm</td>
+        </tr>
+        <tr>
+            <td>Phase 4</td>
+            <td>Enter the program and save</td>
+        </tr>
+        <tr>
+            <td>Phase 5</td>
+            <td>Execute the program</td>
+        </tr>
+        <tr>
+            <td>Phase 6</td>
+            <td>Test the program find errors and debug, then reset</td>
+        </tr>
+        <tr>
+            <td>Phase 7</td>
+            <td>Document and evaluate the program</td>
+        </tr>
+    </table>
+
+    <h2>Programming Structures</h2>
+    <ol>
+        <li>Sequential structure: Top-down execution</li>
+        <li>Decision Structure: if/then/else</li>
+        <li>Iterative (Looping):<br/>While loop: continue looping as long as something is true<br/>Repeat/until loop: continue looping until something is  true<br/>For loop: loop a given number of times</li>
+        <li>Recursive structure:<br/>Repeat a set of instructions as a subtask of itself<br/>Repetition continues until:<br/>degenerative case, which is a termination condition, is met <br/>(degenerativecase is also calles "based case")</li>
+    </ol>
+
+    <h2>Two classic programming/databse problems</h2>
+    <ol>
+        <li>Sorting: Descending order/Ascending order<br/>Sorting numbers<br/>Sorting strings (in acordance with ASCII values)</li>
+        <li>Searching: Find specific data that meet a certain criteria<br/>In database<br/>Filters: temporary search<br/>Queries: search criteria are saved so they don't have to be recreated</li>
+        <li>Two popular search techniques:<br/>Sequential search: Search from top to bottom or from bottom to top, one item at a time<br/>Binary search<br/>Only works if data is SORTED first<br/>start in the middle then go half of that, etc</li>
+    </ol>
+
+    <h2> Two classic program goals</h2>
+    <ol>
+        <li>Efficiency: Program takes minimal time and/or resources</li>
+        <li>Correcteness: Program runs in expected ways and works for all expected conditions</li>
+    </ol>
+
+    <table border = "1" style ="width: 80%; color: #ffffff; background-color: rgb(3, 53, 15); margin: auto;">
+		<tr style="font-size: 120%; background-color: rgb(133, 102, 1);">
+			<th colspan="2">Software and test verifications</th>
+        </tr>
+        <tr>
+            <td>TESTS</td>
+            <td>FUNCTIONS</td>
+        </tr>
+        <tr>
+            <td>Acceptance testing</td>
+            <td>Verifying whether the whole system works as intended</td>
+        </tr>
+        <tr>
+            <td>Integrations testing</td>
+            <td>Ensuring that software components or functions operate together</td>
+        </tr>
+        <tr>
+            <td>Unit testing</td>
+            <td>Validating that each software unit performs as expected<br/>A unit is the smallest testable component of an application</td>
+        </tr>
+        <tr>
+            <td>Functional testing</td>
+            <td>Checking functions by emulating business scenarios, based on functional requirements<br/>Black-box testing is a common way to verify functions</td>
+        </tr>
+        <tr>
+            <td>Performance testing</td>
+            <td>Testing how the software performs under different workloads<br/>Load testing, for example, is used to evaluate performance under real-life load conditions</td>
+        </tr>
+        <tr>
+            <td>Regression testing</td>
+            <td>Checking whether new features break or degrade functionality<br/>Sanity testing can be used to verify menus, functions and commands at the surface level, when there is no time for a full regression test</td>
+        </tr>
+        <tr>
+            <td>Stress testing</td>
+            <td>Testing how much strain the system can take before it fails<br/>Considered to be a type of non-functional testing</td>
+        </tr>
+        <tr>
+            <td>Usability testing</td>
+            <td>Validating how well a customer can use a system or web application to complete a task</td>
+        </tr>
+        <tr>
+    </table>
+
+    <table border = "1" style ="width: 80%; color: #ffffff; background-color: rgb(3, 53, 15); margin: auto;">
+		<tr style="font-size: 120%; background-color: rgb(133, 102, 1);">
+			<th colspan="2">Software testing is done to detect</th>
+        </tr>
+        <tr>
+            <td>Architectural flaws</td>
+        </tr>
+        <tr>
+            <td>Poor design decision</td>
+        </tr>
+        <tr>
+            <td>Invalid or incorrect funtionality</td>
+        </tr>
+        <tr>
+            <td>Security vulnerabilities</td>
+        </tr>
+        <tr>
+            <td>Scalability issues</td>
+        </tr>
+    </table>
+
+    <table border = "1" style ="width: 80%; color: #ffffff; background-color: rgb(3, 53, 15); margin: auto;">
+		<tr style="font-size: 120%; background-color: rgb(133, 102, 1);">
+			<th colspan="2">Testing best practices</th>
+        </tr>
+        <tr>
+            <td>PRACTICES</td>
+            <td>EXPLANATION</td>
+        </tr>
+        <tr>
+            <td>Continuos testing</td>
+            <td>Project teams test each build as it becomes available<br/>This type of software testing relies on test automation that is integrated with the deployment process<br/>It enables software to be validated in realistic test environments earlier in the process, improving design and reducing risks</td>
+        </tr>
+        <tr>
+            <td>Configurations managment</td>
+            <td>Organizations centrally maintain test assets and track what software builds to test<br/>Teams gain access to assets such as code, requirements, design documents, models, test scripts and test results<br/>Good systems include user authentication and audit trails to help teams meet compliance requirements with minimal administrative effort</td>
+        </tr>
+        <tr>
+            <td>Servic virtualazation</td>
+            <td>Testing environments may not be available, especially early in code development<br/>Service virtualization simulates the services and systems that are missing or not yet completed, enabling teams to reduce dependencies and test sooner<br/>They can reuse, deploy and change a configuration to test different scenarios without having to modify the original environment</td>
+        </tr>
+        <tr>
+            <td>Defect or "bug tracking"</td>
+            <td>Monitoring defects is important to both testing and development teams for measuring and improving quality<br/>Automated tools allow teams to track defects, measure their scope and impact, and uncover related issues</td>
+        </tr>
+        <tr>
+            <td>Metrics and reporting</td>
+            <td>Reporting and analytics enable team members to share status, goals and test results. Advanced tools integrate project metrics and present results in a dashboard<br/>Teams quickly see the overall health of a project and can monitor relationships between test, development and other project elements</td>
+        </tr>
+    </table>
+    <h2>
+        <li><a href="https://www.ibm.com/topics/spftware-testing">What is software testing?</a></li>
+    </h2>
+    </body>
+</html>
+        
